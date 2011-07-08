@@ -1,11 +1,12 @@
 <p align="center">
   <img src="/Assets/discount-me.gif" width="201" height="365" title="Discount Me">
 </p>
+
 # Discount Me
 
 > Aplicación para móviles con sistema operativo Windows Phone que permite a los usuarios buscar descuentos en productos y/o servicios cercanos a su posición geográfica.
 
-##Requisitos Necesarios
+## Requisitos Necesarios
 
 - **Sistema Operativo:** Windows 7
 - **Herramientas:** [Visual Studio 2010](http://go.microsoft.com/?linkid=9709969), [MS SQL 2012 Express](http://www.microsoft.com/betaexperience/pd/SQLEXPCTAV2/enus/default.aspx).
@@ -20,7 +21,7 @@
 
 **Tecnologías:** [ASP.NET MVC 3 (razor)](http://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=1491), ADO.NET Entity Framework 4.3.1, [Fluent Validation 3.](http://fluentvalidation.codeplex.com/)2, [Structure Map](http://nuget.org/packages/structuremap/2.6.3) (DI/IoC), jQuery 1.7.1, jQuery UI, 1.8.18, JavaScript, Bing Maps AJAX Control v7.0 ISDK y Bing Maps REST Services (para la conversión de las coordenadas geográficas a direcciones físicas).
 
-###Razones de utilización de las tecnologias propuestas
+### Razones de utilización de las tecnologias propuestas
 
 **ASP.NET MVC 3 con motor Razor:**
 
@@ -52,7 +53,7 @@ Uno de los objetivos que debe tener un buen programador es que su código esté 
 
 También permite el separar la funcionalidad de una determinada tarea de su implementación concreta.
 
-###DESCRIPCIÓN DE LOS PROYECTOS
+## Descripción del proyecto
 
 Se han desarrollado dos proyectos por separado. 
 
@@ -91,11 +92,11 @@ BD DiscountME > Security > (boton derecho sobre el IIS APPPOOL\DefaultAppPool) >
 
 1.- Instalar paquete SDK de Windows Phone 7.1 (WPSDKv71\_en1.iso)
 
-##Autores
+## Autores
 - Juan Francisco Miranda Aguilar ([@jfmiranda75](https://twitter.com/jfmiranda75))
 - Juan Cruz Llorens ([@juancllorens](https://twitter.com/juancllorens))
 
-##License
+## License
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
 - Copyright 2011 © <a href="http://iberasoft.com" target="_blank">IberaSoft</a>.
