@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/Assets/discount-me.gif" width="201" height="365" title="Discount Me">
+  <img src="/Assets/discount-me-web.png" title="Discount Me">
 </p>
 
 # Discount Me
