@@ -1,0 +1,76 @@
+﻿@model DiscountMe.BL.Discount
+
+<script>
+    $(document).ready(function () {
+        $('.date').datepicker({ dateFormat: "dd/mm/yy" });
+    });
+    $.validator.methods.number = function(value, element) {
+        value = floatValue(value);
+        return this.optional(element) || !isNaN(value);
+    };
+    $.validator.methods.range = function(value, element, param) {
+        value = floatValue(value);
+        return this.optional(element) || (value >= param[0] && value <= param[1]);
+    };
+    function floatValue(value) {
+        return parseFloat(value.replace(",", "."));
+    }  
+</script>
+
+<tr>
+    <td><p>
+            @Html.LabelFor(model => model.ProductName, "Producto*:")
+            @Html.TextBoxFor(model => model.ProductName)
+                        
+        </p>@Html.ValidationMessageFor(model => model.ProductName)</td>
+    <td><p>
+            @Html.LabelFor(model => model.Description, "Descripción*:")
+            @Html.TextBoxFor(model => model.Description)
+                        
+        </p>@Html.ValidationMessageFor(model => model.Description)</td>   
+</tr>
+<tr>
+    <td><p>
+            @Html.LabelFor(model => model.Price, "Precio*:")
+            @Html.TextBoxFor(model => model.Price)
+             
+        </p>@Html.ValidationMessageFor(model => model.Price)</td>
+
+    <td><p>
+            @Html.LabelFor(model => model.DiscountPercent, "Descuento*:")
+            @Html.TextBoxFor(model => model.DiscountPercent)
+                        
+        </p>@Html.ValidationMessageFor(model => model.DiscountPercent)</td>
+</tr>
+<tr>
+    <td><p>
+            @Html.LabelFor(model => model.FromDate, "Desde Fecha*:")
+            @Html.TextBoxFor(model => model.FromDate, new { @class = "date" })
+                        
+        </p>@Html.ValidationMessageFor(model => model.FromDate)</td>
+    <td><p>
+            @Html.LabelFor(model => model.UntilDate, "Hasta Fecha*:")
+            @Html.TextBoxFor(model => model.UntilDate, new { @class = "date" })
+                        
+        </p>@Html.ValidationMessageFor(model => model.UntilDate)</td>
+</tr>
+<tr>
+    <td><p>
+            @Html.LabelFor(model => model.StockQuantity, "Stock*:")
+            @Html.TextBoxFor(model => model.StockQuantity)
+                        
+        </p>@Html.ValidationMessageFor(model => model.StockQuantity)</td>
+
+    <td><p>
+            @Html.LabelFor(model => model.StockWarningLevel, "Stock Mínimo*:")
+            @Html.TextBoxFor(model => model.StockWarningLevel)
+                        
+        </p>@Html.ValidationMessageFor(model => model.StockWarningLevel)</td>
+</tr>
+<tr>
+    <td><p>
+            @Html.LabelFor(model => model.Comment, "Comentarios:")
+            @Html.TextBoxFor(model => model.Comment)
+                        
+        </p>@Html.ValidationMessageFor(model => model.Comment)</td>
+</tr>

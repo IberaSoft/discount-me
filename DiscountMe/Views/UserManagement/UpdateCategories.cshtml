@@ -1,0 +1,68 @@
+﻿@model DiscountMe.BL.ViewModels.UsuarioAdministracionViewModel
+
+@{
+    ViewBag.Title = "UpdateCategories";
+}
+
+<h2>Preferencias de Categorias</h2>
+
+<aside>
+    <div style="vertical-align: middle"><img  class="float-left" src="../../Images/sale-icon.png" alt=""/><h2>Sus Categorías</h2></div>
+    @foreach (var disc in Model.UserPreferences)
+    {
+        <div class="box_round">
+            <hr />
+            <ul>
+                <li><span class="white-color">@disc.DiscountCategoryPreferred</span></li>
+            </ul>
+            <hr />
+        </div>
+        <br />
+    }
+</aside>
+
+<article>
+    <p>Seleccione sus <b>preferencias</b> de compra para poder ver en su móvil solo aquellas que le interesen.</p>
+    <p>Categorias:</p>
+    @using (Html.BeginForm()) {
+    <table>
+        <tr>
+            <th>
+                Categoria
+            </th>
+            <th>
+            
+            </th>
+            <th>
+                Detalles
+            </th>
+        
+            <th>Seleccion</th>
+        </tr>
+            @foreach (var cat in Model.Categories)
+            {
+                <tr>
+                    <td style="color: white;">
+                        @Html.DisplayFor(modelItem => cat.Name)
+                    </td>
+                    <td>
+            
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => cat.Description)
+                    </td>
+        
+                    <td style="text-align: center;">
+                        <input type="checkbox" name="catIds" value="@cat.Id" />
+                    </td>
+                </tr>
+            }
+        
+
+    </table>
+    <p>
+        <input type="submit" name="action" value="Guardar" />
+    </p>
+    }
+    <p>Volver al @Html.ActionLink("Panel Principal", "Index") o seleccionar mas @Html.ActionLink("Anunciantes", "UpdateAdvertisers").</p>
+</article>

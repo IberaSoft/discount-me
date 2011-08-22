@@ -1,0 +1,68 @@
+﻿@model DiscountMe.BL.ViewModels.UsuarioAdministracionViewModel
+           
+@{
+    ViewBag.Title = "UpdateAdvertisers";
+}
+
+<h2>Preferencias de Anunciantes</h2>
+
+<aside>
+    <div style="vertical-align: middle"><img  class="float-left" src="../../Images/sale-icon.png" alt=""/><h2>Sus Anunciantes</h2></div>
+    @foreach (var disc in Model.GetLatestDiscounts) {
+        <div class="box_round">
+            <hr />
+            <ul>
+                <li><span class="white-color">@disc.Advertiser.CompanyName</span></li>
+            </ul>
+            <hr />
+        </div>
+        <br />
+    }
+</aside>
+
+<article>
+    <p>Seleccione sus <b>anunciantes</b> preferidos para poder ver en su móvil solo aquellos que le interesen.</p>
+    
+    @using (Html.BeginForm())
+    {
+        <table class="box_round box_shadow" style="width: 100%">
+            <thead style="color: white;">
+                <tr class="tableTitle">
+                    <th>Anunciante</th>
+                    <th>Detalles</th>
+                    <th>Seleccion</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="text-align: center;"><input type="submit" name="action" value="Guardar" /></td>
+                </tr>
+            </tfoot>
+
+            <tbody>
+                @foreach (var adv in Model.Advertisers)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => adv.CompanyName)
+                        </td>
+                    
+                        <td>
+                            @Html.DisplayFor(modelItem => adv.Description)
+                        </td>
+        
+                        <td style="text-align: center;">
+                            <input type="checkbox" name="advIds" value="@adv.Id" />
+                        </td>
+                    </tr>
+                }
+        
+            </tbody>
+        </table>
+        
+    }
+    <p>Volver al @Html.ActionLink("Panel Principal", "Index") o seleccionar mas @Html.ActionLink("Categorias", "UpdateCategories").</p>
+</article>

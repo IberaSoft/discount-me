@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "Faqs";
+}
+
+<h2>Preguntas Frecuentes</h2>
+ 
+ <aside>
+    <img src="@Url.Content("~/Images/global-search-icon.png")" alt="" width="240" height="192"/>
+</aside>
+
+<section>
+    <h3>Aqui podra consultar todas sus dudas y en caso de necestar ayuda por favor no dude en contactarnos.</h3>
+    <br/>
+    <div id="accordion">
+        <h3 class="flip0">¿Qué es DiscountMe?</h3>
+        <div class="panel0">
+            <p>DiscountMe es una plataforma móvil donde descubrir y disfrutar las mejores promociones DiscountMe de ti es mas facil que nunca: sólo has de abrir tu app de DiscountMe en tu Smartphone, y descubrir las ofertas mas interesantes de tu ciudad, que están activas por un periodo corto de tiempo.
+            Corre al comercio para obtener tus ventajas, porque todo lo que ocurre en el mundo DiscountMe pasa en el local, en los barrios, en las calles.
+            Como acabamos de nacer tenemos Madrid a nuestros pies, y poco a poco iremos creciendo para llegar a más y más ciudades.</p>
+        </div>
+
+        <h3 class="flip1">¿Dónde encuentro la App de DiscountMe?</h3>
+        <div class="panel1">
+            <p>DiscountMe está disponible en el MarketPlace de Microsoft para el sistema operativo Windows Phone 7.
+            Si tu teléfono Smartphone no está en estos entornos, puedes mandarnos un correo a info@DiscountMe.com y contarnos qué terminal tienes. En el futuro, te avisaremos el primero una vez lo tengamos desarrollado, ¡de modo que tú también disfrutes del mundo de DiscountMe desde tu terminal!.</p>
+        </div>
+
+        <h3 class="flip2">¿Puedo ver cómo funciona la App de DiscountMe sin estar registrado?</h3>
+        <div class="panel2">
+            <p>Por supuesto. DiscountMe quiere que lo primero que puedas hacer tras descargarte la Aplicación sea poder probar la misma, descubrir nuevos sitios y sonreír con su fácil manejo y cuidada creatividad, no tenemos ninguna duda de que te convencerá.</p>
+        </div>
+
+        <h3 class="flip3">En caso de tener que registrarme, ¿cuál es la mejor forma?</h3>
+        <div class="panel3">
+            <p>Si solo deseas registrarte y gestionar tus preferencias de compra puedes registrarte como Usuario en la esquina superior derecha
+            Si lo que deseas es publicar tus productos o servicios deberias registrarte como Advertiser.</p>
+        </div>
+
+        <h3 class="flip4">¿Cómo localizo las promociones y ofertas de los comercios?</h3>
+        <div class="panel4">
+            <p>Lo primero que has de hacer es abrir tu aplicación de DiscountMe en tu móvil con Windows Phone y estar conectado a internet móvil con acceso a datos. Dado que DiscountMe recoge información en tiempo real, necesita cargar contenidos mediante internet móvil, pero no te preocupes por el volumen de datos porque no será muy importante. Igualmente, si estás conectado mediante una red WiFi el proceso será idéntico, para nosotros es indiferente el medio desde donde acceder a internet.
+
+                Una vez abierta la App, la primera vista que encontrarás es un mapa geolocalizado con los comercios y locales cercanos a ti. En cuanto encuentres un local que te guste, sólo has de pinchar en él, y tendrás acceso a toda su información de detalle, tal y como si estuvieras en el local físicamente. Y lo mejor de todo, es que cada comercio tiene una promoción especialmente diseñada para ti, la cual es de corta duración, por lo que comprueba la fecha de validez y vuela al establecimiento para llevarte tus ofertas favoritas.
+
+                DiscountMe quiere que el mayor valor para ti como usuario es que las promociones sean justo las que tú necesitas, por lo que DiscountMe no promociona ofertas de terceros: todas las ventajas que encontrarás en los comercios han sido conseguidas y supervisadas por DiscountMe para ti. Tú eres especial, y tus ofertas los son para ti.
+
+                Y como somos gente muy social, nos puedes seguir en Twitter, Facebook, nuestro Blog con las mejores noticias, y otras redes sociales que… ¡seguirán creciendo!.</p>
+        </div>
+
+        <h3 class="flip5">¿Cómo obtengo las promociones y ofertas que encuentre en DiscountMe?</h3>
+        <div class="panel5">
+            <p>Una vez tengas identificada tu promoción favorita, encontrarás un botón con el mensaje de “Lo quiero”. 
+
+                Al presionar este botón, aparecerá en tu pantalla un código de aprobación, el cual te dará derecho a convertirlo en la promoción en el local del comercio deseado.
+
+                No olvides el período de validez y vuela al establecimiento para conseguir tu promoción. En el local, has de mostrar al personal del mismo el código de aprobación, que ellos verificarán que es correcto para que accedas a las mejores promociones del comercio.</p>
+        </div>
+
+        <h3 class="flip6">¿Qué son las campañas Express? ¿En qué se diferencian de las anteriores?</h3>
+        <div class="panel6">
+            <p>Las campañas Express son promociones creadas igualmente por el comercio pero de duración muy corta, normalmente no duran más que unas horas activas.
+
+                Happy hours, o compras flash son los mejores formatos para entender este tipo de promociones.
+
+                Una diferencia importante para ti como usuario, es que los propios comercios informarán de la activación de las campañas a sus mejores clientes, por que quien tiene un cliente tiene un amigo.</p>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script type="text/javascript">
+        $(function() {
+            $("#accordion").accordion({
+                active: false,
+                collapsible: true,
+                heightStyle: 'content'
+            });
+        });
+    </script>
+
+    <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+}

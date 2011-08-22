@@ -1,0 +1,22 @@
+﻿@model DiscountMe.BL.ViewModels.DiscountVM
+           
+@{
+    ViewBag.Title = "Editar oferta";
+}
+
+<h2>Editar Descuento</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+    <fieldset>
+        <legend>Fields</legend>
+        
+        <div class="editor-label">
+            @Html.EditorForModel( Model)
+        </div>
+        <article>
+           @Html.ActionLink("<< Volver", "Index", null, new { @class = "button" })
+           <input type="submit" value="Editar" />
+        </article>
+    </fieldset>
+}

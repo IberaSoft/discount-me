@@ -1,0 +1,93 @@
+﻿@model DiscountMe.BL.Advertiser
+
+<aside>
+    <img src="@Url.Content("~/Images/advertisers-store-icon.png")" alt="" width="240" height="192"/>
+</aside>
+
+<article>
+    <h3>Datos Personales</h3>
+    <table class="box_round box_shadow">
+        <tbody>
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.Name, "Nombre*:")
+                        @Html.TextBoxFor(model => model.Name)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Name)</td>
+                <td><p>
+                        @Html.LabelFor(model => model.Surname, "Apellidos*:")
+                        @Html.TextBoxFor(model => model.Surname)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Surname)</td>   
+            </tr>
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.UserName, "Nombre de usuario*:")
+                        @Html.TextBoxFor(model => model.UserName)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.UserName)</td>
+
+                <td><p>
+                        @Html.LabelFor(model => model.Password, "Contraseña*:")
+                        @Html.PasswordFor(model => model.Password)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Password)</td>
+            </tr>
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.Email, "Email*:")
+                        @Html.TextBoxFor(model => model.Email)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Email)</td>
+
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Datos de su Empresa</h3>
+    <table class="box_round box_shadow">
+        <tbody>
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.CompanyName, "Nombre de la empresa*:")
+                        @Html.TextBoxFor(model => model.CompanyName)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.CompanyName)</td>
+
+                <td><p>
+                        @Html.LabelFor(model => model.Cif, "CIF*:")
+                        @Html.TextBoxFor(model => model.Cif)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Cif)</td>
+            </tr>
+    
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.Description, "Descripción:")
+                        @Html.TextBoxFor(model => model.Description)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Description)</td>
+
+                <td><p>
+                        @Html.LabelFor(model => model.Website, "Sitio Web:")
+                        @Html.TextBoxFor(model => model.Website)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.Website)</td>
+            </tr>
+
+            <tr>
+                <td><p>
+                        @Html.LabelFor(model => model.PrimaryPhone, "Teléfono*:")
+                        @Html.TextBoxFor(model => model.PrimaryPhone)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.PrimaryPhone)</td>
+                <td><p>
+                        @Html.LabelFor(model => model.PrimaryFax, "Fax:")
+                        @Html.TextBoxFor(model => model.PrimaryFax)
+                        
+                    </p>@Html.ValidationMessageFor(model => model.PrimaryFax)</td>
+        
+            </tr>
+        </tbody>
+    </table>
+</article>

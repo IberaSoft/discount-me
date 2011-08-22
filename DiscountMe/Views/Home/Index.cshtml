@@ -1,0 +1,90 @@
+﻿<!-- Load the plug-in -->
+    <script src="@Url.Content("~/Scripts/basic-jquery-slider.js")" type="text/javascript"></script>
+
+@section featured {
+<section class="featured">
+    <div class="content-wrapper">
+        <h2>¿Que es?</h2>
+        <section id="feature-text">
+            <p>
+                DiscountMe es la Nueva aplicación para Windows Phone que permite
+                buscar todo tipo de ofertas en comercios cercanos a su 
+                posición geográfica.
+            </p>
+            <ol class="round">
+                <li class="one">
+                    <h4>Ingrese en su cuenta</h4>
+                    Acceda a su panel o cree una cuenta nueva.
+                    Tanto si desea Anunciarse o si desea buscar descuentos.
+                </li>
+                <li class="two">
+                    <h4>Busque un producto o servicio</h4>
+                    Seleccione por categorías todos los productos que desee encontrar,
+                    en mas de miles de ofertas de ultimo momento.
+                </li>
+                <li class="three">
+                    <h4>Obtenga su descuento!</h4>
+                    Podrá ver en el mapa la ubicación exacta de los comercios
+                    donde simplemente podrá acercarse y disfrutar del producto ahorrando.
+                </li>
+            </ol> 
+            <div id="download-button">
+                <p><span>¡Nuevo!</span> Ya disponible la versión 1.0</p>
+                <a href="http://www.windowsphone.com/es-ES/marketplace" title="Market Place" target="_blank"><img src="@Url.Content("~/Images/WP-Download-Spanish-Med.png")" alt="Download" /></a>
+                <a href="http://play.google.com/store/apps" title="Google Play" target="_blank"><img src="@Url.Content("~/Images/es_generic_rgb_wo_60.png")" alt="Download" width="164px" /></a>
+                <p><span>Próximamente</span></p>
+                <a href="https://itunes.apple.com/es/genre/ios/id36?mt=8" title="App Store" target="_blank"><img src="@Url.Content("~/Images/appstore.es.png")" alt="Download" width="164px" /></a>
+            </div>
+        </section>
+        
+        <section id="slider">
+            <div id="container">  
+                <!--  Outer wrapper for presentation only, this can be anything you like title="Automatically generated caption" -->
+                <div id="banner">
+                    <!-- start Basic Jquery Slider -->
+                    <ul class="bjqs">
+                        <li><img src="@Url.Content("~/Images/slider/screen-0.jpg")" alt="" /></li>
+                        <li><img src="@Url.Content("~/Images/slider/screen-1.jpg")" alt="" /></li>
+                        <li><img src="@Url.Content("~/Images/slider/screen-2.jpg")" alt="" /></li>
+                        <li><img src="@Url.Content("~/Images/slider/screen-3.jpg")" alt="" /></li>
+                        <li><img src="@Url.Content("~/Images/slider/screen-4.jpg")" alt="" /></li>
+                    </ul>
+                    <!-- end Basic jQuery Slider -->
+                </div>
+                <!-- End outer wrapper -->      
+            </div>
+        </section>
+    </div>
+</section>
+}
+<div class="clear"></div>
+
+<section class="featured">
+    <section class="feature">
+        <h3>Localiza Promociones cerca de ti</h3>
+        <p>DiscountMe siempre tiene promociones en tu Smartphone, cerca de tu posición y en base a tus preferencias.</p>
+    </section>
+    <section class="feature">
+        <h3>Disfruta de Promociones</h3>
+        <p>Pulsa “Lo quiero” y listo. Así de fácil, sin pagos con tarjetas de crédito ni gastos asociados.</p>
+    </section>
+    <section class="feature">
+        <h3>Ventajas para Anunciantes</h3>
+        <p>Recupera a tus clientes: habla con ellos y escucha lo que quieren.</p>
+    </section>
+</section>
+
+@section scripts {
+    <script src="@Url.Content("~/Scripts/jquery-1.9.1.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/Scripts/basic-jquery-slider.js")" type="text/javascript"></script>
+    <!--  Attach the plug-in to the slider parent element and adjust the settings as required -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#banner').bjqs({
+                'animation': 'slide',
+                'width': 157,
+                'height': 264
+            });
+        });
+    </script>
+}
