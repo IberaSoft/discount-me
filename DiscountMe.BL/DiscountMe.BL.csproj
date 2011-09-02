@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BFDBBFB5-64B5-4285-ADB5-0B2435BE9B08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DiscountMe.BL</RootNamespace>
+    <AssemblyName>DiscountMe.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>&lt;Project Location In Database&gt;</SccProjectName>
+    <SccLocalPath>&lt;Local Binding Root of Project&gt;</SccLocalPath>
+    <SccAuxPath>&lt;Source Control Database&gt;</SccAuxPath>
+    <SccProvider>Mercurial Source Control Package</SccProvider>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FluentValidation, Version=3.3.1.0, Culture=neutral, PublicKeyToken=a82054b837897c66, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assets\FluentValidation\FluentValidation\FluentValidation.dll</HintPath>
+    </Reference>
+    <Reference Include="StructureMap, Version=2.6.1.0, Culture=neutral, PublicKeyToken=e60ad81abae3c223, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Assets\StructureMap2.6\deploy\StructureMap.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DTO\DiscountDTO.cs" />
+    <Compile Include="DTO\UserDTO.cs" />
+    <Compile Include="Entidades\Address.cs" />
+    <Compile Include="Entidades\Advertiser.cs" />
+    <Compile Include="Entidades\City.cs" />
+    <Compile Include="Entidades\Country.cs" />
+    <Compile Include="Entidades\DBVersion.cs" />
+    <Compile Include="Entidades\Discount.cs" />
+    <Compile Include="Entidades\DiscountCategory.cs" />
+    <Compile Include="Entidades\EntidadBase.cs" />
+    <Compile Include="Entidades\UserPreferences.cs" />
+    <Compile Include="Entidades\Province.cs" />
+    <Compile Include="Entidades\Rol.cs" />
+    <Compile Include="Entidades\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validaciones\AddressValidator.cs" />
+    <Compile Include="Validaciones\AdvertiserValidator.cs" />
+    <Compile Include="Validaciones\AdvertiserVMValidator.cs" />
+    <Compile Include="Validaciones\CityValidator.cs" />
+    <Compile Include="Validaciones\LogOnVMValidator.cs" />
+    <Compile Include="Validaciones\CountryValidator.cs" />
+    <Compile Include="Validaciones\DiscountValidator.cs" />
+    <Compile Include="Validaciones\DiscountCategoryValidator.cs" />
+    <Compile Include="Validaciones\ProvinceValidator.cs" />
+    <Compile Include="Validaciones\RolValidator.cs" />
+    <Compile Include="Validaciones\UserPreferenceValidator.cs" />
+    <Compile Include="Validaciones\UserValidator.cs" />
+    <Compile Include="Validaciones\ValidationHelper.cs" />
+    <Compile Include="ViewModels\AdvertiserAdministracionViewModel.cs" />
+    <Compile Include="ViewModels\AdvertiserVM.cs" />
+    <Compile Include="ViewModels\DireccionBingMaps.cs" />
+    <Compile Include="ViewModels\DiscountVM.cs" />
+    <Compile Include="ViewModels\GeoZone.cs" />
+    <Compile Include="ViewModels\LogOnVM.cs" />
+    <Compile Include="ViewModels\PagingInfo.cs" />
+    <Compile Include="ViewModels\UsuarioAdministracionViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DiscountMe.Common\DiscountMe.Common.csproj">
+      <Project>{4DB47159-711E-4493-813B-9C3B4C09FB62}</Project>
+      <Name>DiscountMe.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>if /I "$(ConfigurationName)" == "Release" Eazfuscator.NET.exe "$(TargetPath)" --msbuild-project-path "$(ProjectPath)" --msbuild-project-configuration "$(ConfigurationName)" --msbuild-project-platform "$(PlatformName)" --msbuild-solution-path "$(SolutionPath)" -n --newline-flush -v 3.3</PostBuildEvent>
+  </PropertyGroup>
+</Project>
