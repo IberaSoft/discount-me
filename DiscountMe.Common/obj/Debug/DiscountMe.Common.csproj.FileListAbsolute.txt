@@ -1,0 +1,5 @@
+E:\Pre-Proyectos\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+E:\Pre-Proyectos\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+E:\Pre-Proyectos\DiscountMe\DiscountMe.Common\obj\Debug\ResolveAssemblyReference.cache
+E:\Pre-Proyectos\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+E:\Pre-Proyectos\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
