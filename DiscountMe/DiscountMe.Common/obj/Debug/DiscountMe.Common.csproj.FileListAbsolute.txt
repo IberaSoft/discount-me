@@ -1,0 +1,25 @@
+F:\DiscountMe\DiscountMe.Common\obj\Debug\ResolveAssemblyReference.cache
+F:\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+F:\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+F:\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+F:\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
+C:\Users\Tarde\Desktop\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+C:\Users\Tarde\Desktop\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+C:\Users\Tarde\Desktop\DiscountMe\DiscountMe.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Tarde\Desktop\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+C:\Users\Tarde\Desktop\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Common\bin\Debug\DiscountMe.Common.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\ResolveAssemblyReference.cache
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb

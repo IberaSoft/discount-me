@@ -1,0 +1,76 @@
+﻿@model DiscountMe.BL.ViewModels.UsuarioAdministracionViewModel
+           
+@{
+    ViewBag.Title = "UsersPanel";
+}
+
+<script type="text/javascript" src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0"></script>
+<script src="@Url.Content("Scripts/BingMaps.js")" type="text/javascript"></script>
+
+<h2>Bienvenido @User.Identity.Name!</h2>
+
+<script type="text/javascript">
+    var map = null;
+    $(document).ready(function() {
+        //Check if geolocation is available.
+        debugger;
+        if (navigator.geolocation) {
+            getMap(null);
+        }
+    });
+
+    function getMap() {
+        map = new Microsoft.Maps.Map(document.getElementById('myMap'), {
+            credentials: getMapKey(),
+            mapTypeId: Microsoft.Maps.MapTypeId.aerial,
+            enableClickableLogo: false,
+            enableSearchLogo: false
+        });
+    }
+
+    //TODO: Cargar los anunciantes a mostrar
+    function addPushpins() {
+        var limit = 5;
+        var bounds = map.getBounds();
+        var latlon = bounds.getNorthwest();
+        var lat = latlon.latitude - bounds.height / 4;
+        var lon = latlon.longitude + bounds.width / 4;
+        var latDiff = bounds.height / 2;
+        var lonDiff = bounds.width / 2;
+        for (var i = 0; i < limit; i++) {
+            var pushpin = new Microsoft.Maps.Pushpin(new Microsoft.Maps.Location(lat - (latDiff * Math.random()), lon + (lonDiff * Math.random())), null);
+            map.entities.push(pushpin);
+        }
+    }
+</script>
+
+<aside>
+    <div style="vertical-align: middle"><img  class="float-left" src="../../Images/sale-icon.png" alt=""/><h2>Ultimas Ofertas</h2></div>
+    @foreach (var disc in Model.GetLatestDiscounts)
+    {
+        <div class="box_round">
+            <hr />
+            <span>Desde Día y Hora: <span class="white-color">@disc.FromDate</span><br/>Hasta Día y Hora: <span class="white-color">@disc.UntilDate</span></span><br/>
+            <p>Categoría: <span class="white-color">@disc.DiscountCategory.Name</span><br/>
+                Descuento en: <span class="white-color">@disc.ProductName</span> del <span class="white-color">@disc.DiscountPercent%</span></p>
+            <hr />
+        </div>
+        <br />
+    }
+</aside>
+
+<section>
+    <article>
+        <h3>Preferencias</h3>
+        <p>Seleccione entre las @Html.ActionLink("Categorias", "UpdateCategories") y los @Html.ActionLink("Anunciantes", "UpdateAdvertisers") que desee para poder ver en su móvil solo aquellas que le interesen.</p>
+    </article>
+
+    <h3>Anunciantes</h3>
+    <p>Busque anunciantes cercanos a su posición geográfica:</p>
+    <p><input type="button" value="Obtenga mi Posición" onclick="getCurrentLocation();" /></p>
+    <p><input type="button" value="Mostrar Anunciantes" onclick="addPushpins();" /></p>
+    <article class="box_round box_shadow">
+        <div id='myMap' style="position:relative; width:100%; height:400px;"></div>
+    </article>
+
+</section>

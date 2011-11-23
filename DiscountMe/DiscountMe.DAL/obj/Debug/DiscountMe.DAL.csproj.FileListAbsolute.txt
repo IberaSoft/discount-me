@@ -1,0 +1,71 @@
+F:\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.dll
+F:\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.pdb
+F:\DiscountMe\DiscountMe.Dal\obj\Debug\ResolveAssemblyReference.cache
+F:\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.dll
+F:\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.pdb
+F:\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.dll.config
+F:\DiscountMe\DiscountMe.Dal\bin\Debug\EntityFramework.dll
+F:\DiscountMe\DiscountMe.Dal\bin\Debug\EntityFramework.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\de\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\es\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\fr\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\it\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\nl\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\pl\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\pt\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\sv\FluentValidation.resources.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.DAL.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.Dal.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\DiscountMe.BL.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\StructureMap.xml
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.pdb
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\FluentValidation.xml
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\de\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\es\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\fr\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\it\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\nl\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\pl\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\pt\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\bin\Debug\sv\FluentValidation.resources.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\ResolveAssemblyReference.cache
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.dll
+W:\Proyecto fin de aula\DiscountMe\DiscountMe.Dal\obj\Debug\DiscountMe.Dal.pdb

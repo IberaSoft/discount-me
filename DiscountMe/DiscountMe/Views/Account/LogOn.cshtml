@@ -1,0 +1,71 @@
+﻿@model DiscountMe.BL.ViewModels.LogOnVM
+
+@{
+    ViewBag.Title = "Log On";
+}
+
+<h2>Acceder</h2>
+<p>
+    Por favor ingrese su nombre de usuario y contraseña.<br/>
+    Si no posee una cuenta puede registrarse @Html.ActionLink("aquí", "RegisterNewAdvertiser", "Account") como anunciante o @Html.ActionLink("aquí", "RegisterNewUser" ,"Account") como usuario.
+</p>
+
+<script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
+<script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
+
+<aside>
+    
+</aside>
+
+<article>
+    @Html.ValidationSummary(true, "El inicio de sesión no tuvo éxito. Por favor, corrija los errores y vuelva a intentarlo.")
+    @using (Html.BeginForm()) {
+        <div>
+            <fieldset>
+                <legend>Información de la cuenta</legend>
+                <table class="box_round box_shadow">
+                    <tfoot>
+                        <tr >
+                            <td></td>
+                            <td style="padding: 0px 20px;">
+                                <input type="submit" value="Acceder" />
+                            </td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr></tr>
+                        <tr>
+                            <td><img src="../../../Images/log-on-icon.png" alt="" width="125" height="192"/></td>
+                            <td style="padding: 0px 20px;"><p>
+                                    @Html.LabelFor(m => m.UserName, "Nombre de Usuario:")
+                                    @Html.TextBoxFor(m => m.UserName)
+                        
+                                </p>@Html.ValidationMessageFor(m => m.UserName)
+                                <p>
+                                        @Html.LabelFor(m => m.Password, "Contraseña")
+                                        @Html.PasswordFor(m => m.Password)
+                        
+                                    </p>@Html.ValidationMessageFor(m => m.Password)
+                                <p>
+                                    
+                                <div class="float-left"> @Html.LabelFor(m => m.RememberMe, "Recuérdeme") </div>@Html.CheckBoxFor(m => m.RememberMe)
+                                </p>
+                            </td>
+                        </tr>
+            
+                        <tr>
+                             
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+            </fieldset>
+        </div>
+    }
+</article>

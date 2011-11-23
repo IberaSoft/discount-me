@@ -1,0 +1,98 @@
+﻿@model DiscountMe.BL.ViewModels.AdvertiserAdministracionViewModel
+           
+@{
+    ViewBag.Title = "title";
+}
+
+<h2>Bienvenido @User.Identity.Name!</h2>
+
+<aside>
+    <div style="vertical-align: middle"><img  class="float-left" src="../../Images/sale-icon.png" alt=""/><h2>Ultimas Campañas</h2></div>
+    @foreach (var disc in Model.GetLatestDiscounts)
+    {
+        <div class="box_round">
+            <p><span>Desde Día y Hora: <span class="white-color">@disc.FromDate</span><br/>Hasta Día y Hora: <span class="white-color">@disc.UntilDate</span></span>
+            Categoría: <span class="white-color">@disc.DiscountCategory.Name</span><br/>
+                Descuento en: <span class="white-color">@disc.ProductName</span> del <span class="white-color">@disc.DiscountPercent%</span></p>
+            <hr />
+        </div>
+    }
+</aside>
+
+<section>
+    <article>
+        <h2>Gestion de Ofertas</h2>
+        <p>Utilice el siguiente panel para gestionar sus campañas.</p>
+        
+        <p>
+            @Html.ActionLink("Crear Nueva", "Create", null, new {@class="button"})
+        </p>
+
+        <table>
+            <thead>
+                <tr style="color: white;">
+                    <th></th>
+                    <th>Producto</th>
+                    <th>Descripción</th>
+                    <th>Precio</th>
+                    <th>Descuento</th>
+                    <th>Stock</th>
+                    <th>Stock Min</th>
+                    <th>Fecha Desde</th>
+                    <th>Fecha Hasta</th>
+                    <th>Categoria</th>
+                </tr>
+            </thead>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tfoot>
+
+            @foreach (var disc in Model.GetLatestDiscounts) {
+                <tr style="text-align: center;">
+                    <td style="color: white;">
+                        @Html.ActionLink("Editar", "Edit", new { id=disc.Id }) 
+                        @Html.ActionLink("Borrar", "Delete", new { id=disc.Id })
+                    </td>
+                    <td >
+                        @Html.DisplayFor(modelItem => disc.ProductName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.DiscountPercent)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.StockQuantity)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.StockWarningLevel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.FromDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.UntilDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => disc.DiscountCategory.Name)
+                    </td>
+                </tr>
+            }
+        </table>
+    </article>
+</section>

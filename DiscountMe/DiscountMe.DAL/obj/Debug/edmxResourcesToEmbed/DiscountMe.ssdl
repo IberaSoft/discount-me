@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiscountMeModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DiscountMeModelStoreContainer">
+    <EntitySet Name="Addresses" EntityType="DiscountMeModel.Store.Addresses" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Advertisers" EntityType="DiscountMeModel.Store.Advertisers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Applications" EntityType="DiscountMeModel.Store.Applications" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="City" EntityType="DiscountMeModel.Store.City" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Consumers" EntityType="DiscountMeModel.Store.Consumers" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ConsumersPreferences" EntityType="DiscountMeModel.Store.ConsumersPreferences" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Countries" EntityType="DiscountMeModel.Store.Countries" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DBVersions" EntityType="DiscountMeModel.Store.DBVersions" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="DiscountCategory" EntityType="DiscountMeModel.Store.DiscountCategory" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Discount" EntityType="DiscountMeModel.Store.Discount" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="GeoZone" EntityType="DiscountMeModel.Store.GeoZone" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Membership" EntityType="DiscountMeModel.Store.Membership" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Path" EntityType="DiscountMeModel.Store.Path" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PersonalizationAllUser" EntityType="DiscountMeModel.Store.PersonalizationAllUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PersonalizationPerUser" EntityType="DiscountMeModel.Store.PersonalizationPerUser" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Preferences" EntityType="DiscountMeModel.Store.Preferences" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Province" EntityType="DiscountMeModel.Store.Province" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Rol" EntityType="DiscountMeModel.Store.Rol" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="User" EntityType="DiscountMeModel.Store.User" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserRol" EntityType="DiscountMeModel.Store.UserRol" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK__PersonalizationAllUserPathId_Path" Association="DiscountMeModel.Store.FK__PersonalizationAllUserPathId_Path">
+      <End Role="Path" EntitySet="Path" />
+      <End Role="PersonalizationAllUser" EntitySet="PersonalizationAllUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddressId_Addresses" Association="DiscountMeModel.Store.FK_AddressId_Addresses">
+      <End Role="Addresses" EntitySet="Addresses" />
+      <End Role="Advertisers" EntitySet="Advertisers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddressUserId_User" Association="DiscountMeModel.Store.FK_AddressUserId_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AdvertiserId_Advertisers" Association="DiscountMeModel.Store.FK_AdvertiserId_Advertisers">
+      <End Role="Advertisers" EntitySet="Advertisers" />
+      <End Role="ConsumersPreferences" EntitySet="ConsumersPreferences" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AdvertisersDiscountCategorieId_DiscountCategory" Association="DiscountMeModel.Store.FK_AdvertisersDiscountCategorieId_DiscountCategory">
+      <End Role="DiscountCategory" EntitySet="DiscountCategory" />
+      <End Role="Advertisers" EntitySet="Advertisers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AdvertisersMembershipId_Membership" Association="DiscountMeModel.Store.FK_AdvertisersMembershipId_Membership">
+      <End Role="Membership" EntitySet="Membership" />
+      <End Role="Advertisers" EntitySet="Advertisers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ApplicationId_User" Association="DiscountMeModel.Store.FK_ApplicationId_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="Membership" EntitySet="Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CityId_City" Association="DiscountMeModel.Store.FK_CityId_City">
+      <End Role="City" EntitySet="City" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsumerId_Consumers" Association="DiscountMeModel.Store.FK_ConsumerId_Consumers">
+      <End Role="Consumers" EntitySet="Consumers" />
+      <End Role="ConsumersPreferences" EntitySet="ConsumersPreferences" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsumersAddressId_Addresses" Association="DiscountMeModel.Store.FK_ConsumersAddressId_Addresses">
+      <End Role="Addresses" EntitySet="Addresses" />
+      <End Role="Consumers" EntitySet="Consumers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsumersDiscountCategorieId_DiscountCategory" Association="DiscountMeModel.Store.FK_ConsumersDiscountCategorieId_DiscountCategory">
+      <End Role="DiscountCategory" EntitySet="DiscountCategory" />
+      <End Role="Consumers" EntitySet="Consumers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ConsumersMembershipId_Membership" Association="DiscountMeModel.Store.FK_ConsumersMembershipId_Membership">
+      <End Role="Membership" EntitySet="Membership" />
+      <End Role="Consumers" EntitySet="Consumers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DiscountCategoryId_DiscountCategory" Association="DiscountMeModel.Store.FK_DiscountCategoryId_DiscountCategory">
+      <End Role="DiscountCategory" EntitySet="DiscountCategory" />
+      <End Role="Discount" EntitySet="Discount" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GeoZoneId_GeoZone" Association="DiscountMeModel.Store.FK_GeoZoneId_GeoZone">
+      <End Role="GeoZone" EntitySet="GeoZone" />
+      <End Role="Addresses" EntitySet="Addresses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MembershipApplicationId_Applications" Association="DiscountMeModel.Store.FK_MembershipApplicationId_Applications">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="Membership" EntitySet="Membership" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PathId_Path" Association="DiscountMeModel.Store.FK_PathId_Path">
+      <End Role="Path" EntitySet="Path" />
+      <End Role="PersonalizationPerUser" EntitySet="PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PathApplicationId_Applications" Association="DiscountMeModel.Store.FK_PathApplicationId_Applications">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="Path" EntitySet="Path" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PersonalizationPerUser_User" Association="DiscountMeModel.Store.FK_PersonalizationPerUser_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="PersonalizationPerUser" EntitySet="PersonalizationPerUser" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PreferenceId_Preferences" Association="DiscountMeModel.Store.FK_PreferenceId_Preferences">
+      <End Role="Preferences" EntitySet="Preferences" />
+      <End Role="ConsumersPreferences" EntitySet="ConsumersPreferences" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ProvinceId_Province" Association="DiscountMeModel.Store.FK_ProvinceId_Province">
+      <End Role="Province" EntitySet="Province" />
+      <End Role="City" EntitySet="City" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Province_Countries" Association="DiscountMeModel.Store.FK_Province_Countries">
+      <End Role="Countries" EntitySet="Countries" />
+      <End Role="Province" EntitySet="Province" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RoleId_Applications" Association="DiscountMeModel.Store.FK_RoleId_Applications">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="Rol" EntitySet="Rol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RoleId_Rol" Association="DiscountMeModel.Store.FK_RoleId_Rol">
+      <End Role="Rol" EntitySet="Rol" />
+      <End Role="UserRol" EntitySet="UserRol" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserId_Applications" Association="DiscountMeModel.Store.FK_UserId_Applications">
+      <End Role="Applications" EntitySet="Applications" />
+      <End Role="User" EntitySet="User" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserId_User" Association="DiscountMeModel.Store.FK_UserId_User">
+      <End Role="User" EntitySet="User" />
+      <End Role="UserRol" EntitySet="UserRol" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Addresses">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="GeoZoneId" Type="int" Nullable="false" />
+    <Property Name="AddressLine1" Type="varchar" MaxLength="1000" />
+    <Property Name="AddressLine2" Type="varchar" MaxLength="1000" />
+    <Property Name="PostalCode" Type="char" MaxLength="5" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+    <Property Name="CityId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Advertisers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MembershipId" Type="uniqueidentifier" />
+    <Property Name="AddressId" Type="int" />
+    <Property Name="Names" Type="varchar" MaxLength="50" />
+    <Property Name="Surname" Type="varchar" MaxLength="50" />
+    <Property Name="Website" Type="varchar" MaxLength="500" />
+    <Property Name="LogoUrl" Type="varchar" MaxLength="1000" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="TaxNumber" Type="varchar" MaxLength="100" />
+    <Property Name="PrimaryPhone" Type="char" MaxLength="10" />
+    <Property Name="PrimaryFax" Type="char" MaxLength="10" />
+    <Property Name="DiscountCategoryId" Type="int" />
+    <Property Name="IsFeatured" Type="bit" />
+    <Property Name="IsOnVote" Type="bit" />
+    <Property Name="VoteCount" Type="int" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+    <Property Name="IsCompany" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Applications">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredApplicationName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" Nullable="false" MaxLength="1000" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+    <Property Name="ProvinceId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Consumers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="MembershipId" Type="uniqueidentifier" />
+    <Property Name="AddressId" Type="int" />
+    <Property Name="Names" Type="varchar" MaxLength="50" />
+    <Property Name="Surname" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="char" MaxLength="1" />
+    <Property Name="Birthday" Type="datetime" />
+    <Property Name="FacebookId" Type="varchar" MaxLength="100" />
+    <Property Name="TwitterId" Type="varchar" MaxLength="100" />
+    <Property Name="DiscountCategoryId" Type="int" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="ConsumersPreferences">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PreferenceId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AdvertiserId" Type="uniqueidentifier" />
+    <Property Name="ConsumerId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Countries">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="1000" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="DBVersions">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" Nullable="false" MaxLength="50" />
+    <Property Name="Value" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DiscountCategory">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar(max)" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="ShortDescription" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateOn" Type="datetime" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Discount">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="DiscountCategoryId" Type="int" />
+    <Property Name="ProductName" Type="nvarchar" MaxLength="100" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+    <Property Name="ShortDescription" Type="varchar" MaxLength="50" />
+    <Property Name="Price" Type="decimal" Scale="2" />
+    <Property Name="DiscountPercent" Type="float" />
+    <Property Name="StockQuantity" Type="int" />
+    <Property Name="StockWarningLevel" Type="int" />
+    <Property Name="FromDate" Type="datetime" />
+    <Property Name="UntilDate" Type="datetime" />
+    <Property Name="IsPublished" Type="bit" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdateOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="GeoZone">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+    <Property Name="Latitude" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Longitude" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Membership">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="PasswordFormat" Type="int" Nullable="false" />
+    <Property Name="PasswordSalt" Type="nvarchar" Nullable="false" MaxLength="128" />
+    <Property Name="MobilePIN" Type="nvarchar" MaxLength="16" />
+    <Property Name="Email" Type="nvarchar" MaxLength="256" />
+    <Property Name="LoweredEmail" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordQuestion" Type="nvarchar" MaxLength="256" />
+    <Property Name="PasswordAnswer" Type="nvarchar" MaxLength="128" />
+    <Property Name="IsApproved" Type="bit" Nullable="false" />
+    <Property Name="IsLockedOut" Type="bit" Nullable="false" />
+    <Property Name="CreateDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLoginDate" Type="datetime" Nullable="false" />
+    <Property Name="LastPasswordChangedDate" Type="datetime" Nullable="false" />
+    <Property Name="LastLockoutDate" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptCount" Type="int" Nullable="false" />
+    <Property Name="FailedPasswordAnswerAttemptWindowStart" Type="datetime" Nullable="false" />
+    <Property Name="Comment" Type="ntext" />
+  </EntityType>
+  <EntityType Name="Path">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredPath" Type="nvarchar" Nullable="false" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="PersonalizationAllUser">
+    <Key>
+      <PropertyRef Name="PathId" />
+    </Key>
+    <Property Name="PathId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PersonalizationPerUser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="PathId" Type="uniqueidentifier" />
+    <Property Name="UserId" Type="uniqueidentifier" />
+    <Property Name="PageSettings" Type="image" Nullable="false" />
+    <Property Name="LastUpdatedDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Preferences">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="AdvertiserPrefered" Type="varchar" MaxLength="500" />
+    <Property Name="DiscountCategoyPrefered" Type="varchar" MaxLength="500" />
+    <Property Name="ProductNamePrefered" Type="nvarchar" MaxLength="100" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Province">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="1000" />
+    <Property Name="Comment" Type="varchar(max)" />
+    <Property Name="LastUpdatedBy" Type="int" />
+    <Property Name="CreatedOn" Type="datetime" />
+    <Property Name="UpdatedOn" Type="datetime" />
+    <Property Name="DeletedOn" Type="datetime" />
+    <Property Name="CountryId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Rol">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredRoleName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="Description" Type="nvarchar" MaxLength="256" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="ApplicationId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="LoweredUserName" Type="nvarchar" Nullable="false" MaxLength="256" />
+    <Property Name="MobileAlias" Type="nvarchar" MaxLength="16" />
+    <Property Name="IsGuest" Type="bit" Nullable="false" />
+    <Property Name="LastActivityDate" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserRol">
+    <Key>
+      <PropertyRef Name="UserId" />
+      <PropertyRef Name="RoleId" />
+    </Key>
+    <Property Name="UserId" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="RoleId" Type="uniqueidentifier" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__PersonalizationAllUserPathId_Path">
+    <End Role="Path" Type="DiscountMeModel.Store.Path" Multiplicity="1" />
+    <End Role="PersonalizationAllUser" Type="DiscountMeModel.Store.PersonalizationAllUser" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Path">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PersonalizationAllUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddressId_Addresses">
+    <End Role="Addresses" Type="DiscountMeModel.Store.Addresses" Multiplicity="0..1" />
+    <End Role="Advertisers" Type="DiscountMeModel.Store.Advertisers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addresses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Advertisers">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddressUserId_User">
+    <End Role="User" Type="DiscountMeModel.Store.User" Multiplicity="1" />
+    <End Role="Addresses" Type="DiscountMeModel.Store.Addresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AdvertiserId_Advertisers">
+    <End Role="Advertisers" Type="DiscountMeModel.Store.Advertisers" Multiplicity="0..1" />
+    <End Role="ConsumersPreferences" Type="DiscountMeModel.Store.ConsumersPreferences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Advertisers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ConsumersPreferences">
+        <PropertyRef Name="AdvertiserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AdvertisersDiscountCategorieId_DiscountCategory">
+    <End Role="DiscountCategory" Type="DiscountMeModel.Store.DiscountCategory" Multiplicity="0..1" />
+    <End Role="Advertisers" Type="DiscountMeModel.Store.Advertisers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Advertisers">
+        <PropertyRef Name="DiscountCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AdvertisersMembershipId_Membership">
+    <End Role="Membership" Type="DiscountMeModel.Store.Membership" Multiplicity="0..1" />
+    <End Role="Advertisers" Type="DiscountMeModel.Store.Advertisers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Membership">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Advertisers">
+        <PropertyRef Name="MembershipId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ApplicationId_User">
+    <End Role="User" Type="DiscountMeModel.Store.User" Multiplicity="1" />
+    <End Role="Membership" Type="DiscountMeModel.Store.Membership" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Membership">
+        <PropertyRef Name="Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CityId_City">
+    <End Role="City" Type="DiscountMeModel.Store.City" Multiplicity="1" />
+    <End Role="Addresses" Type="DiscountMeModel.Store.Addresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="CityId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsumerId_Consumers">
+    <End Role="Consumers" Type="DiscountMeModel.Store.Consumers" Multiplicity="1" />
+    <End Role="ConsumersPreferences" Type="DiscountMeModel.Store.ConsumersPreferences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Consumers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ConsumersPreferences">
+        <PropertyRef Name="ConsumerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsumersAddressId_Addresses">
+    <End Role="Addresses" Type="DiscountMeModel.Store.Addresses" Multiplicity="0..1" />
+    <End Role="Consumers" Type="DiscountMeModel.Store.Consumers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Addresses">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Consumers">
+        <PropertyRef Name="AddressId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsumersDiscountCategorieId_DiscountCategory">
+    <End Role="DiscountCategory" Type="DiscountMeModel.Store.DiscountCategory" Multiplicity="0..1" />
+    <End Role="Consumers" Type="DiscountMeModel.Store.Consumers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Consumers">
+        <PropertyRef Name="DiscountCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ConsumersMembershipId_Membership">
+    <End Role="Membership" Type="DiscountMeModel.Store.Membership" Multiplicity="0..1" />
+    <End Role="Consumers" Type="DiscountMeModel.Store.Consumers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Membership">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Consumers">
+        <PropertyRef Name="MembershipId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DiscountCategoryId_DiscountCategory">
+    <End Role="DiscountCategory" Type="DiscountMeModel.Store.DiscountCategory" Multiplicity="0..1" />
+    <End Role="Discount" Type="DiscountMeModel.Store.Discount" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DiscountCategory">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Discount">
+        <PropertyRef Name="DiscountCategoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GeoZoneId_GeoZone">
+    <End Role="GeoZone" Type="DiscountMeModel.Store.GeoZone" Multiplicity="1" />
+    <End Role="Addresses" Type="DiscountMeModel.Store.Addresses" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GeoZone">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Addresses">
+        <PropertyRef Name="GeoZoneId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MembershipApplicationId_Applications">
+    <End Role="Applications" Type="DiscountMeModel.Store.Applications" Multiplicity="1" />
+    <End Role="Membership" Type="DiscountMeModel.Store.Membership" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Membership">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PathId_Path">
+    <End Role="Path" Type="DiscountMeModel.Store.Path" Multiplicity="0..1" />
+    <End Role="PersonalizationPerUser" Type="DiscountMeModel.Store.PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Path">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PersonalizationPerUser">
+        <PropertyRef Name="PathId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PathApplicationId_Applications">
+    <End Role="Applications" Type="DiscountMeModel.Store.Applications" Multiplicity="1" />
+    <End Role="Path" Type="DiscountMeModel.Store.Path" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Path">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PersonalizationPerUser_User">
+    <End Role="User" Type="DiscountMeModel.Store.User" Multiplicity="0..1" />
+    <End Role="PersonalizationPerUser" Type="DiscountMeModel.Store.PersonalizationPerUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PersonalizationPerUser">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PreferenceId_Preferences">
+    <End Role="Preferences" Type="DiscountMeModel.Store.Preferences" Multiplicity="1" />
+    <End Role="ConsumersPreferences" Type="DiscountMeModel.Store.ConsumersPreferences" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Preferences">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="ConsumersPreferences">
+        <PropertyRef Name="PreferenceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ProvinceId_Province">
+    <End Role="Province" Type="DiscountMeModel.Store.Province" Multiplicity="1" />
+    <End Role="City" Type="DiscountMeModel.Store.City" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Province">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="City">
+        <PropertyRef Name="ProvinceId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Province_Countries">
+    <End Role="Countries" Type="DiscountMeModel.Store.Countries" Multiplicity="1" />
+    <End Role="Province" Type="DiscountMeModel.Store.Province" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Countries">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Province">
+        <PropertyRef Name="CountryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RoleId_Applications">
+    <End Role="Applications" Type="DiscountMeModel.Store.Applications" Multiplicity="1" />
+    <End Role="Rol" Type="DiscountMeModel.Store.Rol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Rol">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RoleId_Rol">
+    <End Role="Rol" Type="DiscountMeModel.Store.Rol" Multiplicity="1" />
+    <End Role="UserRol" Type="DiscountMeModel.Store.UserRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Rol">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRol">
+        <PropertyRef Name="RoleId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserId_Applications">
+    <End Role="Applications" Type="DiscountMeModel.Store.Applications" Multiplicity="1" />
+    <End Role="User" Type="DiscountMeModel.Store.User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Applications">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="User">
+        <PropertyRef Name="ApplicationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserId_User">
+    <End Role="User" Type="DiscountMeModel.Store.User" Multiplicity="1" />
+    <End Role="UserRol" Type="DiscountMeModel.Store.UserRol" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="UserRol">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
