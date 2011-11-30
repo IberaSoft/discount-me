@@ -1,0 +1,6 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\Bin\Release\DiscountMe.Languages.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\Bin\Release\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Release\DiscountMe.Languages.Idiomas.Texts.resources
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Release\DiscountMe.Languages.csproj.GenerateResource.Cache
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Release\DiscountMe.Languages.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Release\DiscountMe.Languages.pdb

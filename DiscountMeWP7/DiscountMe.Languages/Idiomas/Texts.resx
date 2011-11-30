@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LoginTitle" xml:space="preserve">
+    <value>login</value>
+    <comment>Nombre de la ventana de login</comment>
+  </data>
+  <data name="NombreAplicacion" xml:space="preserve">
+    <value>DiscountMe</value>
+    <comment>Nombre de la aplicación</comment>
+  </data>
+  <data name="TextoAcercaDe" xml:space="preserve">
+    <value>acerca de</value>
+    <comment>Nombre de la ventana Acerca de</comment>
+  </data>
+  <data name="TextoActualizar" xml:space="preserve">
+    <value>actualizar</value>
+    <comment>Texto del botón actualizar</comment>
+  </data>
+  <data name="TextoAjustes" xml:space="preserve">
+    <value>ajustes</value>
+    <comment>Texto del botón ajustes</comment>
+  </data>
+  <data name="TextoAtencion" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="TextoAutores" xml:space="preserve">
+    <value>Autores:</value>
+  </data>
+  <data name="TextoBienvenida" xml:space="preserve">
+    <value>Bienvenido.</value>
+  </data>
+  <data name="TextoBotonBuscar" xml:space="preserve">
+    <value>Buscar</value>
+    <comment>Texto del botón buscar</comment>
+  </data>
+  <data name="TextoBotonCerrarSession" xml:space="preserve">
+    <value>cerrar sesión</value>
+  </data>
+  <data name="TextoBotonGuardarAjustes" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="TextoBotonLogin" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="TextoBuscar" xml:space="preserve">
+    <value>buscar</value>
+    <comment>Título de la ventana buscar</comment>
+  </data>
+  <data name="TextoCategoriaAjustes" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="TextoCategoriaBusqueda" xml:space="preserve">
+    <value>Categoría de búsqueda:</value>
+  </data>
+  <data name="TextoCategorias" xml:space="preserve">
+    <value>categorías</value>
+    <comment>Texto del botón categorías</comment>
+  </data>
+  <data name="TextoContacto" xml:space="preserve">
+    <value>Contacto:</value>
+  </data>
+  <data name="TextoContenidoAutores" xml:space="preserve">
+    <value>IberaSoft</value>
+  </data>
+  <data name="TextoCorrecto" xml:space="preserve">
+    <value>Correcto</value>
+    <comment>Texto para mostrar la palabra correcto</comment>
+  </data>
+  <data name="TextoDireccionContacto" xml:space="preserve">
+    <value>contact@iberasoft.com</value>
+  </data>
+  <data name="TextoError" xml:space="preserve">
+    <value>Error</value>
+    <comment>Texto para mostrar la palabra error</comment>
+  </data>
+  <data name="TextoGPSDesactivado" xml:space="preserve">
+    <value>El GPS está desacitado. Active la recepción GPS en la configuración del teléfono móvil.</value>
+  </data>
+  <data name="TextoLabelBuscar" xml:space="preserve">
+    <value>Parámetros de búsqueda:</value>
+    <comment>Texto de la etiqueta para los parámetros de búsqueda</comment>
+  </data>
+  <data name="TextoLabelEmailUsuario" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="TextoLabelMedidaDeBusqueda" xml:space="preserve">
+    <value>Unidades de medida:</value>
+  </data>
+  <data name="TextoLabelNombreUsuario" xml:space="preserve">
+    <value>Nombre:</value>
+  </data>
+  <data name="TextoLabelRangoDeBusqueda" xml:space="preserve">
+    <value>Rango de búsqueda:</value>
+  </data>
+  <data name="TextoMapaDescuentos" xml:space="preserve">
+    <value>mapa de descuentos</value>
+    <comment>Nombre de la ventana del mapa con los descuentos</comment>
+  </data>
+  <data name="TextoNumeroVersion" xml:space="preserve">
+    <value>1.0.0</value>
+  </data>
+  <data name="TextoPassword" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="TextoPerfil" xml:space="preserve">
+    <value>perfil</value>
+    <comment>Nombre del comando del perfil</comment>
+  </data>
+  <data name="TextoRecordarme" xml:space="preserve">
+    <value>Recordarme:</value>
+  </data>
+  <data name="TextoUsuario" xml:space="preserve">
+    <value>Nombre del usuario:</value>
+  </data>
+  <data name="TextoUsuarioIncorrecto" xml:space="preserve">
+    <value>Los datos correspondientes al usuario no son correctos.</value>
+  </data>
+  <data name="TextoVersion" xml:space="preserve">
+    <value>Versión:</value>
+  </data>
+</root>

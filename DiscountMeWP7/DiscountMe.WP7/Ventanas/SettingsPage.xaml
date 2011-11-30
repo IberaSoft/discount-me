@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="DiscountMe.Ventanas.SettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel x:Name="TitlePanel" Grid.Row="0">
+            <TextBlock x:Name="ApplicationTitle" Text="{Binding Instance.Texts.NombreAplicacion, Source={StaticResource LocalizationManager}}" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding Instance.Texts.TextoAjustes, Source={StaticResource LocalizationManager}}" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="9*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="1">
+                <TextBlock Height="30" HorizontalAlignment="Left" x:Name="ParametroRangoTextBlock" Text="{Binding Instance.Texts.TextoLabelRangoDeBusqueda, Source={StaticResource LocalizationManager}}" VerticalAlignment="Top" FontSize="{StaticResource PhoneFontSizeMedium}" />
+                <Button Height="70" HorizontalAlignment="Left" x:Name="CambiarRangoButton" VerticalAlignment="Top" Width="393" Style="{StaticResource PickerBoxButton}" Click="OnCambiarRangoButtonClick">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Width="{Binding Width, ElementName=CambiarRangoButton}" />
+                    </StackPanel>
+                </Button>
+                <TextBlock Height="30" HorizontalAlignment="Left" x:Name="ParametroDistanciaTextBlock" Text="{Binding Instance.Texts.TextoLabelMedidaDeBusqueda, Source={StaticResource LocalizationManager}}" VerticalAlignment="Top" FontSize="{StaticResource PhoneFontSizeMedium}" />
+                <Button Height="70" HorizontalAlignment="Left" x:Name="CambiarMedidaButton" VerticalAlignment="Top" Width="393" Style="{StaticResource PickerBoxButton}" Click="OnCambiarMedidaButton">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" Width="{Binding Width, ElementName=CambiarMedidaButton}" />
+                    </StackPanel>
+                </Button>
+                <Button Content="{Binding Instance.Texts.TextoBotonGuardarAjustes, Source={StaticResource LocalizationManager}}" Height="80" Width="250" HorizontalAlignment="Right" Click="OnGuardarButtonClick" />
+            </StackPanel>
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

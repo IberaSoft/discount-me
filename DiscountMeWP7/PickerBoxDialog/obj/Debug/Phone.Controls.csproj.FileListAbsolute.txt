@@ -1,0 +1,10 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\Bin\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\Bin\Debug\Phone.Controls.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.g.resources
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\PickerBoxDialog\Bin\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\PickerBoxDialog\Bin\Debug\Phone.Controls.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.g.resources
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\PickerBoxDialog\obj\Debug\Phone.Controls.pdb

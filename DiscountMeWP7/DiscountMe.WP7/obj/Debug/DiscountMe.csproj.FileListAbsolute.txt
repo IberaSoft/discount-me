@@ -1,0 +1,68 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\AppManifest.xaml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.xap
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Tomers.Phone.Shell.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Phone.Controls.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\App.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Controles\Navegacion.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\InitialPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\MainPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\AboutPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\CategoriesPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\LoginPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\ProfilePage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\SearchPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\SettingsPage.g.i.cs
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.g.resources
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\obj\Debug\XapCacheFile.xml
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\AppManifest.xaml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.xap
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Maps.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Practices.Prism.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Phone.Controls.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Tomers.Phone.Shell.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Phone.Controls.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Maps.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\Bin\Debug\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.csprojResolveAssemblyReference.cache
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\App.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Controles\Navegacion.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\InitialPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\MainPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\AboutPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\CategoriesPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\LoginPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\ProfilePage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\SearchPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\Ventanas\SettingsPage.g.i.cs
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.g.resources
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\DiscountMe.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.WP7\obj\Debug\XapCacheFile.xml

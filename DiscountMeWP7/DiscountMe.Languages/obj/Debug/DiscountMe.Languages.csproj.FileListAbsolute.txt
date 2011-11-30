@@ -1,0 +1,12 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\Bin\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\Bin\Debug\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.Idiomas.Texts.resources
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.csproj.GenerateResource.Cache
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\Bin\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\Bin\Debug\DiscountMe.Languages.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.Idiomas.Texts.resources
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.csproj.GenerateResource.Cache
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Languages\obj\Debug\DiscountMe.Languages.pdb

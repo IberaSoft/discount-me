@@ -1,0 +1,8 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Common\Bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Common\Bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Common\Bin\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Common\Bin\Debug\DiscountMe.Common.pdb
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Common\obj\Debug\DiscountMe.Common.dll
+C:\Users\Juanfran\Desktop\Proyecto fin de aula\DiscountMeWP7\DiscountMe.Common\obj\Debug\DiscountMe.Common.pdb

@@ -1,0 +1,5 @@
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\Bin\Debug\PickerBox.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\Bin\Debug\PickerBox.pdb
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\PickerBox.g.resources
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\PickerBox.dll
+C:\Users\Juanfran\Documents\Visual Studio 2010\Projects\DiscountMeWP7\PickerBoxDialog\obj\Debug\PickerBox.pdb

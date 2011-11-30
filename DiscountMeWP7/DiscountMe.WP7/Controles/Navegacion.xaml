@@ -1,0 +1,16 @@
+﻿<UserControl x:Class="DiscountMe.Controles.Navegacion"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps"
+    mc:Ignorable="d" d:DesignHeight="480" d:DesignWidth="480"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}">
+    
+    <!--ContentPanel - place additional content here-->
+    <Grid x:Name="ContentPanel" Grid.Row="1">
+        <my:Map Name="mapa" CredentialsProvider="Aro5o3A4gMwYutV3CqKPTbFTjskcuOyfjgTx8c8Mor_iJZB441G5V4zLUOstYU3e" Height="650" Width="480" HorizontalAlignment="Left" VerticalAlignment="Top" LogoVisibility="Collapsed" AnimationLevel="Full" ZoomLevel="3" />
+    </Grid>
+</UserControl>

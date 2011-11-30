@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountMe", "DiscountMe.WP7\DiscountMe.csproj", "{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6931CE88-8F6B-4310-BBA9-7709B1191065} = {6931CE88-8F6B-4310-BBA9-7709B1191065}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountMe.WebServicesLayer", "DiscountMe.WebServicesLayer\DiscountMe.WebServicesLayer.csproj", "{6931CE88-8F6B-4310-BBA9-7709B1191065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountMe.Languages", "DiscountMe.Languages\DiscountMe.Languages.csproj", "{9BDDB74D-6664-4182-8BED-9637DE1040E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phone.Controls", "PickerBoxDialog\Phone.Controls.csproj", "{DAF8DDEA-0B47-44FD-9199-C0943C329DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscountMe.Common", "DiscountMe.Common\DiscountMe.Common.csproj", "{8FE2DADC-6681-4849-97F3-B2B09C42CCA9}"
+EndProject
+Global
+	GlobalSection(MercurialSourceControlSolutionProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A37A31-8AF5-4A63-B481-5BDD27CC07CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{6931CE88-8F6B-4310-BBA9-7709B1191065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6931CE88-8F6B-4310-BBA9-7709B1191065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6931CE88-8F6B-4310-BBA9-7709B1191065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6931CE88-8F6B-4310-BBA9-7709B1191065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BDDB74D-6664-4182-8BED-9637DE1040E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BDDB74D-6664-4182-8BED-9637DE1040E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BDDB74D-6664-4182-8BED-9637DE1040E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BDDB74D-6664-4182-8BED-9637DE1040E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF8DDEA-0B47-44FD-9199-C0943C329DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF8DDEA-0B47-44FD-9199-C0943C329DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF8DDEA-0B47-44FD-9199-C0943C329DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF8DDEA-0B47-44FD-9199-C0943C329DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FE2DADC-6681-4849-97F3-B2B09C42CCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE2DADC-6681-4849-97F3-B2B09C42CCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE2DADC-6681-4849-97F3-B2B09C42CCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FE2DADC-6681-4849-97F3-B2B09C42CCA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

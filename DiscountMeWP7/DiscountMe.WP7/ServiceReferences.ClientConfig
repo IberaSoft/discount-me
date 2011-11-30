@@ -1,0 +1,21 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="DiscountMeServiceSoap" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+                <binding name="DiscountMeServiceSoap1" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:1903/DiscountMeService.asmx"
+                binding="basicHttpBinding" bindingConfiguration="DiscountMeServiceSoap"
+                contract="DiscountMeService.DiscountMeServiceSoap" name="DiscountMeServiceSoap" />
+        </client>
+    </system.serviceModel>
+</configuration>
